@@ -45,6 +45,7 @@ const Hero = () => (
                 <Image
                     src="/cover.png"
                     alt="cover"
+                    priority
                     width={1500}
                     height={1500}
                     className='w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative'
